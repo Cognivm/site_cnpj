@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CNPJota - API de Consulta de Empresas Brasileiras</title>
-    <meta name="description" content="API de consulta de dados cadastrais de empresas brasileiras. Acesse CNPJ, razao social, socios, enderecos e mais a partir dos dados abertos da Receita Federal.">
+    <meta name="description" content="API de consulta de dados cadastrais de empresas brasileiras. Acesse CNPJ, razão social, sócios, endereços e mais a partir dos dados abertos da Receita Federal.">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,10 +24,10 @@
             </button>
             <div class="nav-menu" id="navMenu">
                 <a href="#features" class="nav-link">Recursos</a>
-                <a href="#docs" class="nav-link">Documentacao</a>
-                <a href="#pricing" class="nav-link">Precos</a>
+                <a href="#docs" class="nav-link">Documentação</a>
+                <a href="#pricing" class="nav-link">Preços</a>
                 <a href="#faq" class="nav-link">FAQ</a>
-                    <a href="mailto:sac@cognivm.com.br" class="nav-link btn btn-primary btn-sm">Comecar</a>
+                    <a href="mailto:sac@cognivm.com.br" class="nav-link btn btn-primary btn-sm">Começar</a>
             </div>
         </div>
     </nav>
@@ -38,10 +38,10 @@
             <div class="hero-content">
                 <div class="hero-badge">API REST &middot; Dados da Receita Federal</div>
                 <h1>Consulte dados de <span class="gradient-text">empresas brasileiras</span> via API</h1>
-                <p class="hero-subtitle">Acesse CNPJ, razao social, socios, endereco, CNAE, Simples Nacional e mais. Dados atualizados da base publica da Receita Federal do Brasil.</p>
+                <p class="hero-subtitle">Acesse CNPJ, razão social, sócios, endereço, CNAE, Simples Nacional e mais. Dados atualizados da base pública da Receita Federal do Brasil.</p>
                 <div class="hero-actions">
-                    <a href="#docs" class="btn btn-primary btn-lg">Ver Documentacao</a>
-                    <a href="#pricing" class="btn btn-outline btn-lg">Ver Precos</a>
+                    <a href="#docs" class="btn btn-primary btn-lg">Ver Documentação</a>
+                    <a href="#pricing" class="btn btn-outline btn-lg">Ver Preços</a>
                 </div>
                 <div class="hero-stats">
                     <div class="hero-stat">
@@ -62,7 +62,7 @@
                 <div class="code-window">
                     <div class="code-header">
                         <div class="code-dots"><span></span><span></span><span></span></div>
-                        <span class="code-title">Exemplo de requisicao</span>
+                        <span class="code-title">Exemplo de requisição</span>
                     </div>
                     <pre class="code-body"><code><span class="c-keyword">GET</span> /api/v1/empresas/cnpj/<span class="c-string">33000167000101</span>
 <span class="c-comment">Authorization: Bearer SEU_TOKEN</span>
@@ -86,39 +86,39 @@
     <section id="features" class="section">
         <div class="container">
             <div class="section-header">
-                <h2>Tudo que voce precisa para consultar empresas</h2>
-                <p>Dados completos, enriquecidos e prontos para uso em qualquer aplicacao</p>
+                <h2>Tudo que você precisa para consultar empresas</h2>
+                <p>Dados completos, enriquecidos e prontos para uso em qualquer aplicação</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-search"></i></div>
                     <h3>Busca por CNPJ</h3>
-                    <p>Consulte qualquer empresa pelo CNPJ completo (14 digitos) ou basico (8 digitos). Retorna dados cadastrais completos.</p>
+                    <p>Consulte qualquer empresa pelo CNPJ completo (14 dígitos) ou básico (8 dígitos). Retorna dados cadastrais completos.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-filter"></i></div>
                     <h3>Busca com Filtros</h3>
-                    <p>Combine filtros por UF, municipio, CNAE, porte, capital social e data de abertura para encontrar empresas especificas.</p>
+                    <p>Combine filtros por UF, município, CNAE, porte, capital social e data de abertura para encontrar empresas específicas.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-building"></i></div>
                     <h3>Busca por Nome</h3>
-                    <p>Pesquise empresas pela razao social. Filtre por estado para resultados mais precisos.</p>
+                    <p>Pesquise empresas pela razão social. Filtre por estado para resultados mais precisos.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-users"></i></div>
-                    <h3>Quadro Societario</h3>
-                    <p>Acesse nomes e documentos de todos os socios e administradores da empresa.</p>
+                    <h3>Quadro Societário</h3>
+                    <p>Acesse nomes e documentos de todos os sócios e administradores da empresa.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-receipt"></i></div>
                     <h3>Simples Nacional e MEI</h3>
-                    <p>Saiba se a empresa e optante pelo Simples Nacional ou MEI, com datas de opcao e exclusao.</p>
+                    <p>Saiba se a empresa é optante pelo Simples Nacional ou MEI, com datas de opção e exclusão.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-eye"></i></div>
                     <h3>Modo Preview</h3>
-                    <p>Visualize resultados com dados ofuscados antes de gastar creditos. Ideal para validar buscas.</p>
+                    <p>Visualize resultados com dados ofuscados antes de gastar créditos. Ideal para validar buscas.</p>
                 </div>
             </div>
         </div>
@@ -129,35 +129,35 @@
         <div class="container">
             <div class="section-header">
                 <h2>Dados completos em cada consulta</h2>
-                <p>Informacoes enriquecidas com descricoes de tabelas auxiliares da Receita Federal</p>
+                <p>Informações enriquecidas com descrições de tabelas auxiliares da Receita Federal</p>
             </div>
             <div class="data-grid">
                 <div class="data-group">
                     <h3><i class="fas fa-id-card"></i> Cadastro</h3>
                     <ul>
                         <li>CNPJ completo</li>
-                        <li>Razao social e nome fantasia</li>
-                        <li>Natureza juridica (codigo + descricao)</li>
+                        <li>Razão social e nome fantasia</li>
+                        <li>Natureza jurídica (código + descrição)</li>
                         <li>Porte da empresa</li>
                         <li>Capital social</li>
-                        <li>Data de inicio da atividade</li>
-                        <li>Situacao cadastral</li>
+                        <li>Data de início da atividade</li>
+                        <li>Situação cadastral</li>
                     </ul>
                 </div>
                 <div class="data-group">
-                    <h3><i class="fas fa-map-marker-alt"></i> Localizacao</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> Localização</h3>
                     <ul>
-                        <li>Endereco completo (logradouro, numero, complemento)</li>
+                        <li>Endereço completo (logradouro, número, complemento)</li>
                         <li>Bairro e CEP</li>
-                        <li>Municipio (codigo TOM + nome)</li>
+                        <li>Município (código TOM + nome)</li>
                         <li>UF (estado)</li>
                     </ul>
                 </div>
                 <div class="data-group">
                     <h3><i class="fas fa-phone"></i> Contato</h3>
                     <ul>
-                        <li>Telefone principal (DDD + numero)</li>
-                        <li>Telefone secundario</li>
+                        <li>Telefone principal (DDD + número)</li>
+                        <li>Telefone secundário</li>
                         <li>Fax</li>
                         <li>Email corporativo</li>
                     </ul>
@@ -165,29 +165,29 @@
                 <div class="data-group">
                     <h3><i class="fas fa-briefcase"></i> Atividade</h3>
                     <ul>
-                        <li>CNAE principal (codigo + descricao)</li>
-                        <li>CNAEs secundarios (codigos + descricoes)</li>
-                        <li>Simples Nacional (opcao, datas)</li>
-                        <li>MEI (opcao, datas)</li>
-                        <li>Socios e documentos</li>
+                        <li>CNAE principal (código + descrição)</li>
+                        <li>CNAEs secundários (códigos + descrições)</li>
+                        <li>Simples Nacional (opção, datas)</li>
+                        <li>MEI (opção, datas)</li>
+                        <li>Sócios e documentos</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Documentacao -->
+    <!-- Documentação -->
     <section id="docs" class="section">
         <div class="container">
             <div class="section-header">
-                <h2>Documentacao da API</h2>
+                <h2>Documentação da API</h2>
                 <p>Endpoints simples e bem documentados. Integre em minutos.</p>
             </div>
 
             <!-- Auth -->
             <div class="docs-category">
-                <h3 class="docs-category-title"><i class="fas fa-lock"></i> Autenticacao</h3>
-                <p class="docs-category-desc">Todas as requisicoes exigem um token enviado via header <code>Authorization: Bearer TOKEN</code>, query <code>?token=TOKEN</code> ou body JSON.</p>
+                <h3 class="docs-category-title"><i class="fas fa-lock"></i> Autenticação</h3>
+                <p class="docs-category-desc">Todas as requisições exigem um token enviado via header <code>Authorization: Bearer TOKEN</code>, query <code>?token=TOKEN</code> ou body JSON.</p>
             </div>
 
             <div class="endpoint-card">
@@ -195,7 +195,7 @@
                     <div class="endpoint-info">
                         <span class="method post">POST</span>
                         <code>/api/v1/auth/register</code>
-                        <span class="endpoint-desc">Cadastro de usuario</span>
+                        <span class="endpoint-desc">Cadastro de usuário</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
@@ -203,21 +203,21 @@
                     <div class="endpoint-section">
                         <h4>Body (JSON)</h4>
                         <table class="param-table">
-                            <tr><td><code>username</code></td><td>string</td><td>Obrigatorio</td><td>Min. 3 caracteres, unico</td></tr>
-                            <tr><td><code>email</code></td><td>string</td><td>Obrigatorio</td><td>Email valido, unico</td></tr>
-                            <tr><td><code>password</code></td><td>string</td><td>Obrigatorio</td><td>Min. 6 caracteres</td></tr>
+                            <tr><td><code>username</code></td><td>string</td><td>Obrigatório</td><td>Min. 3 caracteres, único</td></tr>
+                            <tr><td><code>email</code></td><td>string</td><td>Obrigatório</td><td>Email válido, único</td></tr>
+                            <tr><td><code>password</code></td><td>string</td><td>Obrigatório</td><td>Min. 6 caracteres</td></tr>
                         </table>
                     </div>
                     <div class="endpoint-section">
                         <h4>Resposta (201)</h4>
                         <pre class="code-inline"><code>{
-  "message": "Usuario criado com sucesso",
+  "message": "Usuário criado com sucesso",
   "user": { "id": 1, "username": "meu_user", "creditos": 10 },
   "api_token": "aBcDeFgH...",
   "jwt_token": "eyJhbG..."
 }</code></pre>
                     </div>
-                    <p class="endpoint-note">Ao se cadastrar, o usuario recebe <strong>10 creditos gratuitos</strong> para testar a API.</p>
+                    <p class="endpoint-note">Ao se cadastrar, o usuário recebe <strong>10 créditos gratuitos</strong> para testar a API.</p>
                 </div>
             </div>
 
@@ -251,7 +251,7 @@
                     <div class="endpoint-info">
                         <span class="method get">GET</span>
                         <code>/api/v1/auth/me</code>
-                        <span class="endpoint-desc">Dados do usuario autenticado</span>
+                        <span class="endpoint-desc">Dados do usuário autenticado</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
@@ -268,7 +268,7 @@
                     <div class="endpoint-info">
                         <span class="method get">GET</span>
                         <code>/api/v1/auth/creditos</code>
-                        <span class="endpoint-desc">Saldo de creditos</span>
+                        <span class="endpoint-desc">Saldo de créditos</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
@@ -309,7 +309,7 @@
             <!-- Empresas -->
             <div class="docs-category">
                 <h3 class="docs-category-title"><i class="fas fa-building"></i> Consulta de Empresas</h3>
-                <p class="docs-category-desc">Endpoints principais. Consomem <strong>1 credito por empresa</strong> retornada (exceto com <code>preview=true</code>).</p>
+                <p class="docs-category-desc">Endpoints principais. Consomem <strong>1 crédito por empresa</strong> retornada (exceto com <code>preview=true</code>).</p>
             </div>
 
             <div class="endpoint-card">
@@ -323,13 +323,13 @@
                 </div>
                 <div class="endpoint-body">
                     <div class="endpoint-section">
-                        <h4>Parametros de URL</h4>
+                        <h4>Parâmetros de URL</h4>
                         <table class="param-table">
-                            <tr><td><code>cnpj</code></td><td>string</td><td>Obrigatorio</td><td>CNPJ com 8 ou 14 digitos (com ou sem formatacao)</td></tr>
+                            <tr><td><code>cnpj</code></td><td>string</td><td>Obrigatório</td><td>CNPJ com 8 ou 14 dígitos (com ou sem formatação)</td></tr>
                         </table>
                         <h4>Query parameters</h4>
                         <table class="param-table">
-                            <tr><td><code>preview</code></td><td>boolean</td><td>Opcional</td><td>Se <code>true</code>, retorna dados ofuscados sem consumir creditos</td></tr>
+                            <tr><td><code>preview</code></td><td>boolean</td><td>Opcional</td><td>Se <code>true</code>, retorna dados ofuscados sem consumir créditos</td></tr>
                         </table>
                     </div>
                     <div class="endpoint-section">
@@ -347,7 +347,7 @@
     "uf": "RJ",
     "situacao_cadastral": "02",
     "cnae_fiscal_principal": "0600001",
-    "cnae_fiscal_principal_descricao": "Extracao de petroleo...",
+    "cnae_fiscal_principal_descricao": "Extração de petróleo...",
     "socios": "MAGDA CHAMBRIARD, ...",
     "capital_social": "205431960490.52",
     ...
@@ -374,18 +374,18 @@
                     <div class="endpoint-section">
                         <h4>Query parameters</h4>
                         <table class="param-table">
-                            <tr><td><code>uf</code></td><td>string</td><td>Obrigatorio</td><td>Sigla do estado (SP, RJ...)</td></tr>
-                            <tr><td><code>city_code</code></td><td>string</td><td>Opcional</td><td>Codigo(s) TOM do municipio, separados por virgula</td></tr>
-                            <tr><td><code>cnae_principal</code></td><td>string</td><td>Opcional</td><td>Codigo CNAE fiscal principal</td></tr>
-                            <tr><td><code>cnae_secundario</code></td><td>string</td><td>Opcional</td><td>Codigo CNAE secundario (busca parcial)</td></tr>
-                            <tr><td><code>porte_empresa</code></td><td>string</td><td>Opcional</td><td>01=Nao informado, 02=Micro, 03=Pequeno, 05=Demais</td></tr>
+                            <tr><td><code>uf</code></td><td>string</td><td>Obrigatório</td><td>Sigla do estado (SP, RJ...)</td></tr>
+                            <tr><td><code>city_code</code></td><td>string</td><td>Opcional</td><td>Código(s) TOM do município, separados por vírgula</td></tr>
+                            <tr><td><code>cnae_principal</code></td><td>string</td><td>Opcional</td><td>Código CNAE fiscal principal</td></tr>
+                            <tr><td><code>cnae_secundario</code></td><td>string</td><td>Opcional</td><td>Código CNAE secundário (busca parcial)</td></tr>
+                            <tr><td><code>porte_empresa</code></td><td>string</td><td>Opcional</td><td>01=Não informado, 02=Micro, 03=Pequeno, 05=Demais</td></tr>
                             <tr><td><code>situacao_cadastral</code></td><td>string</td><td>Opcional</td><td>Default: 02 (Ativa)</td></tr>
-                            <tr><td><code>capital_social_min</code></td><td>number</td><td>Opcional</td><td>Capital social minimo (R$)</td></tr>
-                            <tr><td><code>capital_social_max</code></td><td>number</td><td>Opcional</td><td>Capital social maximo (R$)</td></tr>
-                            <tr><td><code>data_inicio_min</code></td><td>string</td><td>Opcional</td><td>Data minima (YYYY-MM-DD)</td></tr>
-                            <tr><td><code>data_inicio_max</code></td><td>string</td><td>Opcional</td><td>Data maxima (YYYY-MM-DD)</td></tr>
-                            <tr><td><code>limite</code></td><td>integer</td><td>Opcional</td><td>1-1000, default 100 (limitado pelos creditos)</td></tr>
-                            <tr><td><code>pagina</code></td><td>integer</td><td>Opcional</td><td>Pagina dos resultados (default: 1)</td></tr>
+                            <tr><td><code>capital_social_min</code></td><td>number</td><td>Opcional</td><td>Capital social mínimo (R$)</td></tr>
+                            <tr><td><code>capital_social_max</code></td><td>number</td><td>Opcional</td><td>Capital social máximo (R$)</td></tr>
+                            <tr><td><code>data_inicio_min</code></td><td>string</td><td>Opcional</td><td>Data mínima (YYYY-MM-DD)</td></tr>
+                            <tr><td><code>data_inicio_max</code></td><td>string</td><td>Opcional</td><td>Data máxima (YYYY-MM-DD)</td></tr>
+                            <tr><td><code>limite</code></td><td>integer</td><td>Opcional</td><td>1-1000, default 100 (limitado pelos créditos)</td></tr>
+                            <tr><td><code>pagina</code></td><td>integer</td><td>Opcional</td><td>Página dos resultados (default: 1)</td></tr>
                             <tr><td><code>preview</code></td><td>boolean</td><td>Opcional</td><td>Dados ofuscados, sem custo</td></tr>
                         </table>
                     </div>
@@ -394,7 +394,7 @@
                         <pre class="code-inline"><code>curl -H "Authorization: Bearer TOKEN" \
   "https://api.cnpjota.com.br/api/v1/empresas/filtros?uf=SP&cnae_principal=6201501&limite=50"</code></pre>
                     </div>
-                    <p class="endpoint-note">Retorna tambem dados de <strong>Simples Nacional</strong> e <strong>MEI</strong> (opcao, datas de opcao e exclusao).</p>
+                    <p class="endpoint-note">Retorna também dados de <strong>Simples Nacional</strong> e <strong>MEI</strong> (opção, datas de opção e exclusão).</p>
                 </div>
             </div>
 
@@ -403,7 +403,7 @@
                     <div class="endpoint-info">
                         <span class="method get">GET</span>
                         <code>/api/v1/empresas/busca</code>
-                        <span class="endpoint-desc">Busca por razao social</span>
+                        <span class="endpoint-desc">Busca por razão social</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
@@ -411,10 +411,10 @@
                     <div class="endpoint-section">
                         <h4>Query parameters</h4>
                         <table class="param-table">
-                            <tr><td><code>q</code></td><td>string</td><td>Obrigatorio</td><td>Termo de busca (min. 3 caracteres)</td></tr>
+                            <tr><td><code>q</code></td><td>string</td><td>Obrigatório</td><td>Termo de busca (min. 3 caracteres)</td></tr>
                             <tr><td><code>uf</code></td><td>string</td><td>Opcional</td><td>Filtrar por estado</td></tr>
                             <tr><td><code>limite</code></td><td>integer</td><td>Opcional</td><td>Default 20, max 100</td></tr>
-                            <tr><td><code>pagina</code></td><td>integer</td><td>Opcional</td><td>Paginacao (default: 1)</td></tr>
+                            <tr><td><code>pagina</code></td><td>integer</td><td>Opcional</td><td>Paginação (default: 1)</td></tr>
                             <tr><td><code>preview</code></td><td>boolean</td><td>Opcional</td><td>Dados ofuscados, sem custo</td></tr>
                         </table>
                     </div>
@@ -429,7 +429,7 @@
             <!-- Tabelas auxiliares -->
             <div class="docs-category">
                 <h3 class="docs-category-title"><i class="fas fa-table"></i> Tabelas Auxiliares (sem custo)</h3>
-                <p class="docs-category-desc">Endpoints de apoio que nao consomem creditos.</p>
+                <p class="docs-category-desc">Endpoints de apoio que não consomem créditos.</p>
             </div>
 
             <div class="endpoint-card">
@@ -437,7 +437,7 @@
                     <div class="endpoint-info">
                         <span class="method get">GET</span>
                         <code>/api/v1/municipios</code>
-                        <span class="endpoint-desc">Lista de municipios (codigo TOM + UF)</span>
+                        <span class="endpoint-desc">Lista de municípios (código TOM + UF)</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
@@ -445,7 +445,7 @@
                     <table class="param-table">
                         <tr><td><code>uf</code></td><td>string</td><td>Opcional</td><td>Filtrar por estado</td></tr>
                     </table>
-                    <pre class="code-inline"><code>{ "data": [{ "tom_code": "7107", "nome": "SAO PAULO", "uf": "SP" }, ...] }</code></pre>
+                    <pre class="code-inline"><code>{ "data": [{ "tom_code": "7107", "nome": "SÃO PAULO", "uf": "SP" }, ...] }</code></pre>
                 </div>
             </div>
 
@@ -454,13 +454,13 @@
                     <div class="endpoint-info">
                         <span class="method get">GET</span>
                         <code>/api/v1/cnaes</code>
-                        <span class="endpoint-desc">Busca de CNAEs por codigo ou descricao</span>
+                        <span class="endpoint-desc">Busca de CNAEs por código ou descrição</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
                 <div class="endpoint-body">
                     <table class="param-table">
-                        <tr><td><code>q</code></td><td>string</td><td>Opcional</td><td>Busca por codigo ou descricao</td></tr>
+                        <tr><td><code>q</code></td><td>string</td><td>Opcional</td><td>Busca por código ou descrição</td></tr>
                         <tr><td><code>limite</code></td><td>integer</td><td>Opcional</td><td>Default 50, max 200</td></tr>
                     </table>
                     <pre class="code-inline"><code>{ "data": [{ "codigo": "6201501", "descricao": "Desenvolvimento de programas..." }] }</code></pre>
@@ -470,7 +470,7 @@
             <!-- Pagamentos -->
             <div class="docs-category">
                 <h3 class="docs-category-title"><i class="fas fa-credit-card"></i> Pagamentos</h3>
-                <p class="docs-category-desc">Compra de creditos via MercadoPago.</p>
+                <p class="docs-category-desc">Compra de créditos via MercadoPago.</p>
             </div>
 
             <div class="endpoint-card">
@@ -478,7 +478,7 @@
                     <div class="endpoint-info">
                         <span class="method post">POST</span>
                         <code>/api/v1/payment/comprar</code>
-                        <span class="endpoint-desc">Criar pagamento para compra de creditos</span>
+                        <span class="endpoint-desc">Criar pagamento para compra de créditos</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
@@ -493,7 +493,7 @@
   "valor": 10.00,
   "creditos": 100
 }</code></pre>
-                    <p class="endpoint-note">Redirecione o usuario para <code>init_point</code> para concluir o pagamento. Valor minimo: R$ 10,00.</p>
+                    <p class="endpoint-note">Redirecione o usuário para <code>init_point</code> para concluir o pagamento. Valor mínimo: R$ 10,00.</p>
                 </div>
             </div>
 
@@ -502,12 +502,12 @@
                     <div class="endpoint-info">
                         <span class="method get">GET</span>
                         <code>/api/v1/payment/status/{id}</code>
-                        <span class="endpoint-desc">Status de uma transacao</span>
+                        <span class="endpoint-desc">Status de uma transação</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
                 <div class="endpoint-body">
-                    <p>Retorna status da transacao: <code>pending</code>, <code>approved</code> ou <code>failed</code>.</p>
+                    <p>Retorna status da transação: <code>pending</code>, <code>approved</code> ou <code>failed</code>.</p>
                 </div>
             </div>
 
@@ -516,18 +516,18 @@
                     <div class="endpoint-info">
                         <span class="method get">GET</span>
                         <code>/api/v1/payment/minhas-compras</code>
-                        <span class="endpoint-desc">Historico de compras do usuario</span>
+                        <span class="endpoint-desc">Histórico de compras do usuário</span>
                     </div>
                     <i class="fas fa-chevron-down endpoint-toggle"></i>
                 </div>
                 <div class="endpoint-body">
-                    <p>Retorna as ultimas 20 transacoes do usuario autenticado.</p>
+                    <p>Retorna as últimas 20 transações do usuário autenticado.</p>
                 </div>
             </div>
 
-            <!-- Exemplos de integracao -->
+            <!-- Exemplos de integração -->
             <div class="docs-category">
-                <h3 class="docs-category-title"><i class="fas fa-code"></i> Exemplos de Integracao</h3>
+                <h3 class="docs-category-title"><i class="fas fa-code"></i> Exemplos de Integração</h3>
             </div>
 
             <div class="examples-tabs">
@@ -593,22 +593,22 @@ const resp2 = await fetch(`${BASE}/empresas/filtros?${params}`, { headers });
 console.log(await resp2.json());</code></pre>
             </div>
 
-            <!-- Codigos de erro -->
+            <!-- Códigos de erro -->
             <div class="docs-category">
-                <h3 class="docs-category-title"><i class="fas fa-exclamation-triangle"></i> Codigos de Erro</h3>
+                <h3 class="docs-category-title"><i class="fas fa-exclamation-triangle"></i> Códigos de Erro</h3>
             </div>
             <div class="error-table-wrapper">
                 <table class="error-table">
                     <thead>
-                        <tr><th>HTTP</th><th>Descricao</th></tr>
+                        <tr><th>HTTP</th><th>Descrição</th></tr>
                     </thead>
                     <tbody>
-                        <tr><td><code>400</code></td><td>Requisicao invalida (parametros incorretos)</td></tr>
-                        <tr><td><code>401</code></td><td>Token ausente, invalido ou expirado</td></tr>
+                        <tr><td><code>400</code></td><td>Requisição inválida (parâmetros incorretos)</td></tr>
+                        <tr><td><code>401</code></td><td>Token ausente, inválido ou expirado</td></tr>
                         <tr><td><code>403</code></td><td>Acesso negado</td></tr>
-                        <tr><td><code>404</code></td><td>Recurso nao encontrado</td></tr>
-                        <tr><td><code>409</code></td><td>Conflito (usuario/email ja existe)</td></tr>
-                        <tr><td><code>429</code></td><td>Limite de requisicoes excedido</td></tr>
+                        <tr><td><code>404</code></td><td>Recurso não encontrado</td></tr>
+                        <tr><td><code>409</code></td><td>Conflito (usuário/email já existe)</td></tr>
+                        <tr><td><code>429</code></td><td>Limite de requisições excedido</td></tr>
                         <tr><td><code>500</code></td><td>Erro interno do servidor</td></tr>
                     </tbody>
                 </table>
@@ -620,7 +620,7 @@ console.log(await resp2.json());</code></pre>
     <section id="pricing" class="section section-alt">
         <div class="container">
             <div class="section-header">
-                <h2>Precos simples e transparentes</h2>
+                <h2>Preços simples e transparentes</h2>
                 <p>Pague apenas pelo que usar. Sem mensalidades, sem surpresas.</p>
             </div>
             <div class="pricing-grid">
@@ -633,12 +633,12 @@ console.log(await resp2.json());</code></pre>
                     </div>
                     <p class="pricing-desc">Para conhecer a API</p>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 10 creditos ao cadastrar</li>
+                        <li><i class="fas fa-check"></i> 10 créditos ao cadastrar</li>
                         <li><i class="fas fa-check"></i> Acesso a todos os endpoints</li>
                         <li><i class="fas fa-check"></i> Preview ilimitado (dados ofuscados)</li>
-                        <li><i class="fas fa-check"></i> Documentacao completa</li>
+                        <li><i class="fas fa-check"></i> Documentação completa</li>
                     </ul>
-                    <a href="#contact" class="btn btn-outline btn-block">Criar Conta Gratis</a>
+                    <a href="#contact" class="btn btn-outline btn-block">Criar Conta Grátis</a>
                 </div>
                 <div class="pricing-card featured">
                     <div class="pricing-badge">Popular</div>
@@ -648,20 +648,20 @@ console.log(await resp2.json());</code></pre>
                         <span class="price-value">0,10</span>
                         <span class="price-period">/ consulta</span>
                     </div>
-                    <p class="pricing-desc">10 creditos = R$ 1,00</p>
+                    <p class="pricing-desc">10 créditos = R$ 1,00</p>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Compra minima: R$ 10,00 (100 creditos)</li>
-                        <li><i class="fas fa-check"></i> Creditos nunca expiram</li>
+                        <li><i class="fas fa-check"></i> Compra mínima: R$ 10,00 (100 créditos)</li>
+                        <li><i class="fas fa-check"></i> Créditos nunca expiram</li>
                         <li><i class="fas fa-check"></i> Sem mensalidade ou taxa de setup</li>
                         <li><i class="fas fa-check"></i> Pagamento seguro via MercadoPago</li>
-                        <li><i class="fas fa-check"></i> Dados completos com socios</li>
-                        <li><i class="fas fa-check"></i> Ate 1000 resultados por requisicao</li>
+                        <li><i class="fas fa-check"></i> Dados completos com sócios</li>
+                        <li><i class="fas fa-check"></i> Até 1000 resultados por requisição</li>
                     </ul>
-                    <a href="#contact" class="btn btn-primary btn-block">Comecar Agora</a>
+                    <a href="#contact" class="btn btn-primary btn-block">Começar Agora</a>
                 </div>
             </div>
             <div class="pricing-note">
-                <p><i class="fas fa-info-circle"></i> Consultas auxiliares (municipios, CNAEs) e o modo preview nao consomem creditos.</p>
+                <p><i class="fas fa-info-circle"></i> Consultas auxiliares (municípios, CNAEs) e o modo preview não consomem créditos.</p>
             </div>
         </div>
     </section>
@@ -671,13 +671,13 @@ console.log(await resp2.json());</code></pre>
         <div class="container">
             <div class="section-header">
                 <h2>Rate Limiting</h2>
-                <p>Limites por IP para garantir a estabilidade do servico</p>
+                <p>Limites por IP para garantir a estabilidade do serviço</p>
             </div>
             <div class="rate-grid">
                 <div class="rate-card">
                     <div class="rate-value">10</div>
                     <div class="rate-label">req/min</div>
-                    <div class="rate-desc">Autenticacao</div>
+                    <div class="rate-desc">Autenticação</div>
                 </div>
                 <div class="rate-card">
                     <div class="rate-value">60</div>
@@ -707,56 +707,56 @@ console.log(await resp2.json());</code></pre>
             <div class="faq-list">
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
-                        <span>De onde vem os dados?</span>
+                        <span>De onde vêm os dados?</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Os dados sao provenientes da base publica de CNPJ da Receita Federal do Brasil, disponibilizada no Portal de Dados Abertos. Inclui informacoes de empresas, estabelecimentos, socios, Simples Nacional e tabelas auxiliares (CNAEs, municipios, naturezas juridicas).</p>
+                        <p>Os dados são provenientes da base pública de CNPJ da Receita Federal do Brasil, disponibilizada no Portal de Dados Abertos. Inclui informações de empresas, estabelecimentos, sócios, Simples Nacional e tabelas auxiliares (CNAEs, municípios, naturezas jurídicas).</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
-                        <span>O que e o modo preview?</span>
+                        <span>O que é o modo preview?</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>O modo preview (<code>?preview=true</code>) retorna os resultados com dados sensiveis ofuscados (telefones, emails, enderecos parciais, nomes de socios parciais). Nao consome creditos e e ideal para validar se a busca retorna o que voce precisa antes de gastar creditos.</p>
+                        <p>O modo preview (<code>?preview=true</code>) retorna os resultados com dados sensíveis ofuscados (telefones, emails, endereços parciais, nomes de sócios parciais). Não consome créditos e é ideal para validar se a busca retorna o que você precisa antes de gastar créditos.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
-                        <span>Os creditos expiram?</span>
+                        <span>Os créditos expiram?</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Nao. Os creditos comprados nunca expiram. Voce pode usa-los no seu proprio ritmo.</p>
+                        <p>Não. Os créditos comprados nunca expiram. Você pode usá-los no seu próprio ritmo.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
-                        <span>Como funciona a cobranca?</span>
+                        <span>Como funciona a cobrança?</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Cada empresa retornada em uma consulta consome 1 credito. Se voce buscar por filtros e retornarem 50 empresas, serao consumidos 50 creditos. A consulta por CNPJ unico consome 1 credito. Consultas auxiliares (municipios, CNAEs) e preview nao consomem creditos. A taxa e de 10 creditos por R$ 1,00 (R$ 0,10 por consulta).</p>
+                        <p>Cada empresa retornada em uma consulta consome 1 crédito. Se você buscar por filtros e retornarem 50 empresas, serão consumidos 50 créditos. A consulta por CNPJ único consome 1 crédito. Consultas auxiliares (municípios, CNAEs) e preview não consomem créditos. A taxa é de 10 créditos por R$ 1,00 (R$ 0,10 por consulta).</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
-                        <span>Qual a diferenca entre CNPJ basico e completo?</span>
+                        <span>Qual a diferença entre CNPJ básico e completo?</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>O CNPJ basico sao os 8 primeiros digitos e identifica a empresa (raiz). O CNPJ completo (14 digitos) identifica um estabelecimento especifico (matriz ou filial). Ao buscar pelo basico, a API retorna dados da empresa e do estabelecimento principal (matriz).</p>
+                        <p>O CNPJ básico são os 8 primeiros dígitos e identifica a empresa (raiz). O CNPJ completo (14 dígitos) identifica um estabelecimento específico (matriz ou filial). Ao buscar pelo básico, a API retorna dados da empresa e do estabelecimento principal (matriz).</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
-                        <span>Quais formas de pagamento sao aceitas?</span>
+                        <span>Quais formas de pagamento são aceitas?</span>
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>O pagamento e processado pelo MercadoPago, que aceita cartao de credito, debito, boleto bancario e Pix. A compra minima e de R$ 10,00 (100 creditos).</p>
+                        <p>O pagamento é processado pelo MercadoPago, que aceita cartão de crédito, débito, boleto bancário e Pix. A compra mínima é de R$ 10,00 (100 créditos).</p>
                     </div>
                 </div>
             </div>
@@ -767,14 +767,14 @@ console.log(await resp2.json());</code></pre>
     <section id="contact" class="section cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Pronto para comecar?</h2>
-                <p>Crie sua conta gratuitamente e receba 10 creditos para testar a API agora mesmo.</p>
+                <h2>Pronto para começar?</h2>
+                <p>Crie sua conta gratuitamente e receba 10 créditos para testar a API agora mesmo.</p>
                 <div class="cta-actions">
                     <a href="mailto:sac@cognivm.com.br" class="btn btn-primary btn-lg">
                         <i class="fas fa-envelope"></i> Entrar em Contato
                     </a>
                     <a href="#docs" class="btn btn-outline-light btn-lg">
-                        <i class="fas fa-book"></i> Ver Documentacao
+                        <i class="fas fa-book"></i> Ver Documentação
                     </a>
                 </div>
             </div>
@@ -788,7 +788,7 @@ console.log(await resp2.json());</code></pre>
                 <div class="footer-brand">
                     <span class="brand-icon">C</span>
                     <span class="footer-name">CNPJota</span>
-                    <p>API de consulta de dados cadastrais de empresas brasileiras a partir da base publica da Receita Federal.</p>
+                    <p>API de consulta de dados cadastrais de empresas brasileiras a partir da base pública da Receita Federal.</p>
                     <a href="https://www.cognivm.com.br/" target="_blank" class="cognivm-badge">
                         <i class="fas fa-industry"></i>
                         Projeto do time <strong>Cognivm</strong>
@@ -797,8 +797,8 @@ console.log(await resp2.json());</code></pre>
                 <div class="footer-links">
                     <h4>Produto</h4>
                     <a href="#features">Recursos</a>
-                    <a href="#pricing">Precos</a>
-                    <a href="#docs">Documentacao</a>
+                    <a href="#pricing">Preços</a>
+                    <a href="#docs">Documentação</a>
                     <a href="#faq">FAQ</a>
                 </div>
                 <div class="footer-links">
